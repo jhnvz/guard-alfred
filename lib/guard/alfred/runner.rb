@@ -12,7 +12,7 @@ module Guard
       end
 
       ##
-      # Runs scenario's by controller paths.
+      # Runs scenario's for controller paths.
       #
       def run(paths)
         return true if paths.empty?

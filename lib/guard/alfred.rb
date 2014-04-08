@@ -8,7 +8,7 @@ module Guard
     attr_accessor :options, :runner
 
     ##
-    # Initialize a new plugin.
+    # Initialize plugin.
     #
     # === Params
     #
@@ -30,7 +30,7 @@ module Guard
         :run_on_modifications => {}
       }.merge(options)
 
-      @runner = Runner.new(@options)
+      @runner = Runner.new
     end
 
     ##

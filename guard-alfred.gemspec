@@ -5,7 +5,7 @@ require 'guard/alfred/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "guard-alfred"
-  gem.version       = Guard::Alfred::Version::VERSION
+  gem.version       = Guard::AlfredVersion::VERSION
   gem.authors       = ["Johan van Zonneveld"]
   gem.email         = ["johan@vzonneveld.nl"]
   gem.summary       = %q{Guard gem for Alfred::Rails}
