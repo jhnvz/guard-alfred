@@ -15,7 +15,7 @@ Installation
 Add the gem to your Gemfile (inside development group):
 
 ``` ruby
- gem 'guard-alfred', require: false
+ gem 'guard-alfred', :require => false
 ```
 
 Add guard definition to your Guardfile by running this command:
@@ -47,7 +47,6 @@ Supported Ruby Versions
 This library is tested against Travis and aims to support the following Ruby
 implementations:
 
-* Ruby 1.9.2
 * Ruby 1.9.3
 * Ruby 2.0.0
 * Ruby 2.1.1
