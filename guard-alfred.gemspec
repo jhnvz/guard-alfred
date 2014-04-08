@@ -19,6 +19,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_dependency 'guard'
+  gem.add_dependency 'alfred_rails'
 
   gem.add_development_dependency 'bundler', '~> 1.5'
   gem.add_development_dependency 'rake'
