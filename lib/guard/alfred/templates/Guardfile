@@ -1,4 +1,6 @@
+# Make sure to put this block on top op the Guardfile so all
+# fixtures get generated before the tests are run.
 guard :alfred do
-  watch(%r{^app/controllers/(.+)\.rb$}) { |m| "#{Alfred.configuration.test_path}/alfreds/#{m[1]}.rb" }
-  watch(%r{^spec/alfreds/(.+)\.rb$})    { |m| "#{Alfred.configuration.test_path}/alfreds/#{m[1]}.rb" }
+  watch(%r{^app/controllers/(.+)\.rb$}) { |m| "#{::Alfred.configuration.test_path}/alfreds/#{m[1]}.rb" }
+  watch(%r{^spec/alfreds/(.+)\.rb$})    { |m| "#{::Alfred.configuration.test_path}/alfreds/#{m[1]}.rb" }
 end
