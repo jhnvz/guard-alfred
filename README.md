@@ -32,7 +32,7 @@ Please read [Guard usage doc](https://github.com/guard/guard#readme).
 Guardfile
 ------------
 
-Make sure to put this block on top of the file so all fixtures are created before running tests.
+Make sure to put this block on top of your Guardfile so all fixtures are created before running tests.
 
 ```ruby
 guard :alfred do
