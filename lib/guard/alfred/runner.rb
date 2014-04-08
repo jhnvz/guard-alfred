@@ -2,14 +2,8 @@ module Guard
   class Alfred
     class Runner
 
-      attr_accessor :options
-
-      def initialize(options = {})
-        @options = options
-      end
-
       ##
-      # Runs all the scenario's
+      # Runs all the scenario's.
       #
       def run_all
         ::Guard::UI.info("Running all Alfred scenario's\n", :reset => true)
@@ -18,7 +12,7 @@ module Guard
       end
 
       ##
-      # Find scenario's by controller paths.
+      # Runs scenario's by controller paths.
       #
       def run(paths)
         return true if paths.empty?
