@@ -1,0 +1,4 @@
+guard :alfred do
+  watch(%r{^app/controllers/(.+)\.rb$}) { |m| "#{Alfred.configuration.test_path}/alfreds/#{m[1]}.rb" }
+  watch(%r{^spec/alfreds/(.+)\.rb$})    { |m| "#{Alfred.configuration.test_path}/alfreds/#{m[1]}.rb" }
+end
