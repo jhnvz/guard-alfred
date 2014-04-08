@@ -15,13 +15,13 @@ Installation
 Add the gem to your Gemfile (inside development group):
 
 ``` ruby
- gem 'guard-rspec', require: false
+ gem 'guard-alfred', require: false
 ```
 
 Add guard definition to your Guardfile by running this command:
 
 ```
-$ guard init rspec
+$ guard init alfred
 ```
 
 Usage
