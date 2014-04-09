@@ -1,8 +1,3 @@
-------------
-:warning: **This repository is still under development** :warning:
-
-------------
-
 ## Guard Alfred
 
 [![Gem Version](http://img.shields.io/gem/v/guard-alfred.svg)][gem]
