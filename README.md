@@ -5,7 +5,17 @@
 
 ## Guard Alfred
 
-[![Gem Version](https://badge.fury.io/rb/guard-alfred.png)](http://badge.fury.io/rb/guard-alfred) [![Build Status](https://secure.travis-ci.org/jhnvz/guard-alfred.png?branch=master)](http://travis-ci.org/jhnvz/guard-alfred) [![Coverage Status](https://coveralls.io/repos/jhnvz/guard-alfred/badge.png?branch=master)](https://coveralls.io/r/jhnvz/guard-alfred) [![Code Climate](https://codeclimate.com/github/jhnvz/guard-alfred.png)](https://codeclimate.com/github/jhnvz/guard-alfred) [![Dependency Status](https://gemnasium.com/jhnvz/guard-alfred.png)](https://gemnasium.com/jhnvz/guard-alfred)
+[![Gem Version](http://img.shields.io/gem/v/guard-alfred.svg)][gem]
+[![Build Status](http://img.shields.io/travis/jhnvz/guard-alfred.svg)][travis]
+[![Coverage Status](http://img.shields.io/coveralls/jhnvz/guard-alfred.svg)][coveralls]
+[![Code Climate](http://img.shields.io/codeclimate/github/jhnvz/guard-alfred.svg)][codeclimate]
+[![Dependency Status](http://img.shields.io/gemnasium/jhnvz/guard-alfred.svg)][gemnasium]
+
+[gem]: https://rubygems.org/gems/guard-alfred
+[travis]: http://travis-ci.org/jhnvz/guard-alfred
+[coveralls]: https://coveralls.io/r/jhnvz/guard-alfred
+[codeclimate]: https://codeclimate.com/github/jhnvz/guard-alfred
+[gemnasium]: https://gemnasium.com/jhnvz/guard-alfred
 
 Automatically creates fixture files of your controller action responses under several conditions.
 
