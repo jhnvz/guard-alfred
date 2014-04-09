@@ -37,7 +37,7 @@ module Guard
     # Runs all the scenario's if option all_on_start is true.
     #
     def start
-      ::Guard::UI.info 'Guard::Alfred is running'
+      ::Guard::UI.info 'Guard::Alfred is serving'
       run_all if @options[:all_on_start]
     end
 
